@@ -1,0 +1,118 @@
+@media screen and (min-width: 1700px) {
+
+
+}
+
+
+@media screen and (max-width: 1400px) {
+
+
+.navbar-nav .nav-item {
+    padding: 0 6px;
+}
+
+.navbar-nav a {
+    font-size: 17px;
+}
+
+
+.inner-footer-box .right-footer {
+    width: 100%;
+    padding: 45px 0 0;
+}
+
+.inner-footer-box .item-footer {
+    width: calc(28% - 20px);
+}
+
+.inner-footer-box .item-footer:nth-child(1), .inner-footer-box .item-footer:nth-child(2) {
+    width: calc(22% - 20px);
+}
+
+.navbar-nav li .nav-link {
+    padding: 32px 0px;
+}
+
+
+ul.sub-menu li.nav-item a {
+    font-size: 16px;
+}
+
+}
+
+
+
+@media screen and (max-width: 1199px) {
+
+.navbar-nav .nav-item {
+    padding: 0 14px;
+}
+
+.welcome-sec .welcome-box .text-box {
+    padding: 100px 15px 15px;
+}
+
+.navbar-nav a {
+    font-size: 18px;
+}
+
+.navbar-nav a{ font-size: 14px;}
+.navbar-nav .nav-item {padding: 0px 8px;}
+.header .btn-primary {font-size: 14px;padding:10px;min-width: 94px;}
+.header .btn {margin-left: 10px; margin-top: 5px;}
+.header .btn-primary i{ display: none;}
+
+.header-right .navbar-nav {flex-direction: column;}
+.header .offcanvas-start {background: var(--Primary-Color);}
+.offcanvas-start { border-right: none; width: 300px;}
+.header-right .offcanvas-body {align-items: self-start;padding: 20px 0px;}
+.header-right .offcanvas-body nav {width: 100%;}
+.navbar-nav .nav-item {padding:0px 20px;}
+.navbar-nav li .nav-link {padding: 10px 0px;color: #fff;}
+.navbar-nav .nav-link{ font-size: 16px;color: #fff;text-align: left;}
+.header .border-bottom {border-bottom: 1px solid #3f3f3f !important;}
+.logo{max-width: 160px; padding-right: 10px;}
+.main {margin-top: 81px;}
+
+header.header {
+    padding: 15px 0;
+}
+
+
+.navbar-nav .nav-item .dropdown-menu {
+    position: static !important;
+    background: transparent;
+    padding: 8px 12px 12px !important;
+}
+
+.navbar-nav .nav-item .dropdown-menu li a {
+    color: #fff;
+    padding: 0;
+    font-size: 15px;
+}
+
+.navbar-nav .nav-item .dropdown-menu li:not(:last-child) a {
+    padding-bottom: 10px;
+}
+
+
+}
+
+@media screen and (max-width: 991px) {
+
+
+}
+
+
+    
+@media screen and (max-width: 767px) {
+    
+
+
+}
+    
+    
+       
+           
+           
+           
