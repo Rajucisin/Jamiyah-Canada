@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- <link rel="stylesheet" href="css/aos.css"> -->
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/responsive.css">
+   <title>Jamiyah CANADA</title>
+</head>
+
+<body>
+   <header class="header home-page-header">
+      <div class="container">
+         <div class="top-header position-relative">
+            <div class="text-header">
+               <p>Are You Ready To Help Our Community? <a href="#">Become a Volunteer!</a></p>
+            </div>
+            <div class="social-header d-flex align-items-center gap-2 ms-auto">
+               <p>Follow Us :</p>
+               <ul class="p-0 m-0 d-flex align-items-center gap-2 list-unstyled">
+                  <li>
+                     <a href="#">
+                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path
+                              d="M7.61261 1.76473C7.29048 1.76473 7.02917 2.02427 7.02917 2.34423C7.02917 2.66419 7.29048 2.92372 7.61261 2.92372C7.93475 2.92372 8.19605 2.66419 8.19605 2.34423C8.19605 2.02427 7.93475 1.76473 7.61261 1.76473Z"
+                              fill="#434343" />
+                           <path
+                              d="M5.01809 2.50817C3.66621 2.50817 2.56665 3.6003 2.56665 4.94304C2.56665 6.28579 3.66621 7.37791 5.01809 7.37791C6.36998 7.37791 7.46954 6.28579 7.46954 4.94304C7.46954 3.6003 6.36998 2.50817 5.01809 2.50817ZM5.01809 6.50322C4.15191 6.50322 3.44779 5.80337 3.44779 4.94354C3.44779 4.08371 4.15241 3.38385 5.01809 3.38385C5.88378 3.38385 6.58839 4.08371 6.58839 4.94354C6.58839 5.80337 5.88378 6.50322 5.01809 6.50322Z"
+                              fill="#434343" />
+                           <path
+                              d="M6.96437 9.88707H2.99C1.34141 9.88707 0 8.55473 0 6.91729V2.96979C0 1.33234 1.34141 0 2.99 0H6.96437C8.61297 0 9.95488 1.33234 9.95488 2.96979V6.91729C9.95488 8.55473 8.61346 9.88707 6.96437 9.88707ZM2.99 0.929668C1.85753 0.929668 0.936495 1.84448 0.936495 2.96929V6.91679C0.936495 8.0416 1.85753 8.95641 2.99 8.95641H6.96437C8.09685 8.95641 9.01788 8.0416 9.01788 6.91679V2.96929C9.01788 1.84448 8.09635 0.929668 6.96437 0.929668H2.99Z"
+                              fill="#434343" />
+                        </svg>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <svg width="7" height="13" viewBox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path
+                              d="M4.32045 12.101V6.80684H6.09769L6.43579 4.61664H4.32045V3.19564C4.32045 2.59633 4.61615 2.01238 5.56362 2.01238H6.52555V0.148093C6.52555 0.148093 5.65238 0 4.81811 0C3.07577 0 1.93682 1.04903 1.93682 2.9475V4.61664H0V6.80684H1.93682V12.101H4.32045Z"
+                              fill="#434343" />
+                        </svg>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path
+                              d="M5.07144 3.6627L8.24345 0H7.49196L4.73733 3.18029L2.53721 0H0L3.32661 4.80882L0 8.64933H0.751993L3.66071 5.29123L5.984 8.64933H8.52121L5.07094 3.66221L5.07144 3.6627ZM4.04219 4.85141L3.70509 4.37246L1.02326 0.562159H2.17768L4.34189 3.63744L4.67899 4.11639L7.49246 8.11342H6.33805L4.04219 4.85191V4.85141Z"
+                              fill="#434343" />
+                        </svg>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <svg width="10" height="7" viewBox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path
+                              d="M9.29015 2.02476C9.29015 0.906389 8.37759 0 7.2516 0H2.03855C0.91256 0 0 0.906884 0 2.02476V4.43437C0 5.55275 0.91256 6.45914 2.03855 6.45914H7.2516C8.37759 6.45914 9.29015 5.55275 9.29015 4.43437V2.02476ZM6.22385 3.4101L3.8861 4.55869C3.79435 4.60773 3.48318 4.54185 3.48318 4.43834V2.08024C3.48318 1.97524 3.79734 1.90936 3.8886 1.96137L6.12661 3.17088C6.22036 3.22387 6.3191 3.35859 6.22385 3.40961V3.4101Z"
+                              fill="#434343" />
+                        </svg>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path
+                              d="M6.46371 4.47845C6.50909 4.49678 6.54998 4.51709 6.59287 4.53541C7.19226 4.82268 7.63109 5.2526 7.86097 5.78702C8.18311 6.53096 8.21403 7.73947 7.23914 8.7053C6.49612 9.44329 5.59155 9.77514 4.31296 9.78554H4.30697C2.86633 9.77514 1.76078 9.29421 1.01578 8.35463C0.353049 7.51907 0.0124667 6.35513 0 4.89797V4.88757C0.010472 3.43041 0.351053 2.26647 1.01378 1.43091C1.75879 0.491332 2.86683 0.0104012 4.30697 0H4.31296C5.75561 0.0104012 6.87561 0.489351 7.64306 1.42447C8.02055 1.88707 8.2998 2.44329 8.47633 3.08965L7.64754 3.30956C7.50193 2.78356 7.28252 2.33531 6.98681 1.97672C6.38741 1.24715 5.48882 0.872214 4.30897 0.863794C3.1396 0.874195 2.25496 1.24715 1.67851 1.97226C1.14094 2.65082 0.861687 3.63348 0.851714 4.89054C0.862186 6.14809 1.14094 7.13026 1.67851 7.81129C2.25297 8.5369 3.1396 8.90986 4.30897 8.91976C5.36365 8.91184 6.06129 8.6632 6.64223 8.08618C7.30496 7.42992 7.2925 6.62308 7.08156 6.13175C6.9564 5.8425 6.73049 5.60178 6.42681 5.42051C6.35101 5.9688 6.18446 6.40466 5.92017 6.74096C5.5691 7.18524 5.07044 7.42595 4.42866 7.46063C3.94445 7.48688 3.4787 7.37098 3.11766 7.13472C2.6908 6.85339 2.44047 6.42546 2.41404 5.9262C2.36268 4.94205 3.14658 4.23477 4.36731 4.16543C4.80015 4.14116 5.20657 4.15948 5.58207 4.22239C5.5327 3.92075 5.43247 3.68004 5.28237 3.5052C5.07742 3.26696 4.75727 3.14463 4.3344 3.14265H4.31994C3.97935 3.14265 3.51958 3.23626 3.22637 3.67855L2.52076 3.19762C2.91471 2.60476 3.55299 2.27836 4.32244 2.27836H4.3389C5.62346 2.28628 6.38891 3.08321 6.4667 4.4735L6.46271 4.47746H6.46471L6.46371 4.47845ZM3.26277 5.88063C3.2892 6.39227 3.84571 6.63051 4.38327 6.6003C4.90837 6.57157 5.50377 6.368 5.60401 5.10847C5.33323 5.04953 5.03354 5.01882 4.7134 5.01882C4.61466 5.01882 4.51641 5.0208 4.41768 5.02675C3.53753 5.07578 3.24382 5.49975 3.26427 5.87865L3.26227 5.88063H3.26277Z"
+                              fill="#434343" />
+                        </svg>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path
+                              d="M0.131156 2.60723H1.77576V7.85389H0.131156V2.60723ZM0.953456 0C1.47955 0 1.9054 0.423972 1.9054 0.945022C1.9054 1.46607 1.47955 1.89153 0.953456 1.89153C0.427363 1.89153 0 1.46706 0 0.945022C0 0.422982 0.425867 0 0.953456 0Z"
+                              fill="#434343" />
+                           <path
+                              d="M2.80554 2.60723H4.38033V3.32491H4.40177C4.62119 2.91184 5.15675 2.47746 5.95661 2.47746C7.61916 2.47746 7.92536 3.56315 7.92536 4.97623V7.85389H6.28474V5.30312C6.28474 4.6944 6.27278 3.91184 5.43153 3.91184C4.59028 3.91184 4.44666 4.57454 4.44666 5.25854V7.85389H2.80554V2.60723Z"
+                              fill="#434343" />
+                        </svg>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="bottom-header">
+            <div class="d-flex align-items-center">
+               <div class="logo me-auto">
+                  <a href="index.html">
+                     <img src="images/white-logo.svg" alt="">
+                  </a>
+               </div>
+               <div class="header-right d-flex align-items-center justify-content-start">
+                  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                     aria-labelledby="offcanvasExampleLabel">
+                     <div class="offcanvas-header d-md-none d-block justify-content-between border-bottom">
+                        <div class="header-close text-white ms-auto text-end" data-bs-dismiss="offcanvas"
+                           aria-label="Close">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                              class="bi bi-x-lg" viewBox="0 0 16 16">
+                              <path
+                                 d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+                           </svg>
+                        </div>
+                     </div>
+                     <div class="offcanvas-body">
+                        <nav>
+                           <ul class="navbar-nav">
+                              <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                              <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
+                              <li class="nav-item"><a href="#" class="nav-link">Our Services & Programmes </a></li>
+                              <li class="nav-item"><a href="#" class="nav-link">News & Announcements</a></li>
+                              <li class="nav-item"><a href="#" class="nav-link">Our Impact</a></li>
+                              <li class="nav-item"><a href="#" class="nav-link">Our Islamic Centre</a></li>
+                           </ul>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+               <div class="user-auth ms-auto">
+                  <a href="contact-us.html" class="btn-primary">
+                     Get Involved
+                  </a>
+               </div>
+               <button class="btn d-xl-none bg-transparent border-0 p-0" type="button" data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                  <span class="mobile-nav">
+                     <span class="bar1"></span>
+                     <span class="bar2"></span>
+                     <span class="bar3"></span>
+                  </span>
+               </button>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <main class="main">
+      <div class="position-relative home-page-banner overflow-hidden">
+         <div class="swiper mySwiper banner-slider banner-sec">
+            <div class="swiper-wrapper ">
+               <div class="swiper-slide">
+                  <div class="inner-banner position-relative">
+                     <img src="" alt="">
+                     <div class="text-box">
+                        <div class="container">
+                           <div class="banner-details-text">
+                              <h1>A Global Non-Profit Social Service Organisation</h1>
+                              <p>Serving the Community, Caring for All</p>
+                              <a href="#" class="btn-theme white-btn">learn more</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="inner-banner position-relative">
+                     <div class="container">
+                        <div class="row h-100 align-items-center">
+                           <div class="col-lg-6 mb-5">
+                              <div class="text-box">
+                                 <h1 data-bs-ride="carousel" data-aos="fade-up" data-aos-duration="2000"><span>Life
+                                       Sounds Better</span> When You Hear It Clearly</h1>
+                                 <p class="banner-lead" data-bs-ride="carousel" data-aos="fade-up"
+                                    data-aos-duration="2000">Cutting-edge audiology and personalized care designed to
+                                    help you hear the world better.</p>
+                                 <a href="contact-us.html" class="btn btn-primary" data-bs-ride="carousel"
+                                    data-aos="fade-up" data-aos-duration="2000">Book Your Hearing Test</a>
+                              </div>
+                           </div>
+                           <div class="col-lg-6 align-self-end">
+                              <div class="banner-right-img" data-bs-ride="carousel" data-aos="fade-up"
+                                 data-aos-duration="2000">
+                                 <img src="images/banner-right.png" alt="">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+
+      <section class="community-section py-100">
+         <div class="container">
+            <div class="block-header">
+               <span class="subtitle">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path
+                        d="M15.5 8C15.5 3.85786 12.1421 0.499999 8 0.5C3.85786 0.5 0.499999 3.85786 0.5 8C0.5 12.1421 3.85786 15.5 8 15.5C12.1421 15.5 15.5 12.1421 15.5 8Z"
+                        stroke="CurrentColor" stroke-miterlimit="10" />
+                     <path
+                        d="M3.08584 4.90324C3.08584 4.90104 3.08608 4.89953 3.08608 4.89722C3.08017 4.90579 3.08063 4.90707 3.08584 4.90324Z"
+                        fill="CurrentColor" />
+                     <path
+                        d="M14.4665 4.19897C14.3947 4.07696 14.3194 3.95724 14.241 3.8398C14.1644 3.81753 14.0827 3.81873 14.2125 3.98027C14.2741 4.00765 14.2358 4.16692 14.343 4.17387C14.3223 4.14573 14.4166 4.15855 14.4666 4.19907L14.4665 4.19897Z"
+                        fill="CurrentColor" />
+                     <path
+                        d="M12.6898 5.64254C12.5805 5.4258 12.4569 5.34139 12.2754 5.24416C12.0955 5.1478 11.8865 5.13139 11.5864 5.21407C11.321 5.28718 10.8977 5.25176 10.6645 5.04459C10.4311 4.83742 10.2944 4.68206 9.90084 4.67218C9.50148 4.66207 9.27877 4.74811 8.91113 4.98419C8.54317 5.22058 8.20455 5.59441 8.05386 5.9288C7.88254 6.30926 7.81475 6.6997 7.81475 7.34871C7.81475 7.76241 7.45559 7.98501 7.67939 8.376C7.85897 8.68964 8.42465 9.02882 8.96241 9.02643C9.50007 9.02393 10.2161 8.60654 10.4473 8.73679C10.9095 8.99731 10.5086 9.03294 10.6437 9.8096C10.7884 10.6408 10.6349 10.8895 10.5973 11.5705C10.5656 12.1461 10.6591 12.9576 10.9761 13.1468C11.1932 13.2763 11.5337 13.2371 11.7864 12.8794C12.0391 12.5217 12.154 12.6352 12.4656 12.3911C12.7772 12.147 12.5764 11.925 12.9792 11.5532C13.11 11.4325 13.2018 11.3245 13.2672 11.1698C13.6472 10.2706 13.5814 9.71107 13.8629 9.30324C14.1522 8.88411 14.5562 8.18762 14.4316 7.9597C14.307 7.73178 13.9046 7.95829 13.7047 7.67659C13.3309 7.14958 12.7863 5.83374 12.6899 5.64254H12.6898Z"
+                        fill="CurrentColor" />
+                     <path
+                        d="M5.70204 9.2789C5.51127 9.03012 5.46369 9.06434 5.15733 8.60871C4.85097 8.15307 4.08289 7.9547 3.77164 7.96469C3.4819 7.97404 3.31687 7.91907 3.04582 7.75013C2.73131 7.55404 2.57161 7.82346 2.33369 7.75871C2.1099 7.69777 2.0534 7.58707 2.00039 7.4328C1.92358 7.20944 2.11598 7.10645 1.92086 6.82876C1.76953 6.61333 1.54921 6.68015 1.40798 6.59465C1.21667 6.47884 1.24252 6.25678 1.29456 6.09915C1.33726 5.96976 1.4585 5.87231 1.63971 5.8282C1.89131 5.76693 2.23168 5.87176 2.38432 6.05319C2.63625 6.3526 3.05777 6.28818 3.17999 5.99485C3.27385 5.76964 3.28678 5.55139 3.37315 5.22927C3.45952 4.90716 3.81096 4.79732 4.08821 4.52377C4.27094 4.34343 4.44878 4.12279 4.58947 3.93473C4.83239 3.6099 5.22316 2.62856 4.46899 2.5687C3.71482 2.50884 3.35175 2.24301 3.21182 2.31536C3.17271 2.34676 3.03648 2.56371 2.99802 2.59586C2.95098 2.65149 3.02648 2.99261 2.72349 2.83454C1.64807 3.96797 0.923015 5.43721 0.721924 7.06864C0.772658 7.12198 0.757992 7.15848 0.818069 7.19738C0.878038 7.23627 1.08184 7.19488 1.31129 7.44529C1.54074 7.69581 1.74041 7.87626 1.98507 8.21837C2.03363 8.28616 2.11044 8.41935 2.16106 8.52549C2.35053 8.92289 2.01951 9.2864 2.04775 9.7279C2.07611 10.1695 2.27057 10.756 2.66167 11.1336C2.81931 11.2858 2.93729 11.4748 3.00302 11.6838C3.19835 12.3051 3.26842 13.101 3.37619 13.7679C3.58641 13.9426 3.8064 14.1059 4.03509 14.2571C4.0277 14.2434 4.02075 14.2277 4.01466 14.2089C4.37437 14.1945 4.6741 13.49 4.92028 13.0454C5.16656 12.601 5.489 12.4105 5.79124 11.9536C6.06848 11.4873 6.18353 11.215 6.46556 10.5975C6.57452 10.3588 6.5579 10.0231 6.41906 9.79559C6.26284 9.53963 5.89281 9.52779 5.70204 9.27901V9.2789Z"
+                        fill="CurrentColor" />
+                     <path
+                        d="M7.86875 0.617174C6.88666 0.634013 5.95062 0.839558 5.0952 1.19926C5.12268 1.23109 5.04055 1.45826 5.10552 1.6789C5.46207 2.85916 6.20592 2.38625 6.7263 1.9681C7.1589 1.62056 7.41171 1.74506 7.62583 1.62936C7.77282 1.54995 7.85724 1.40003 7.8429 1.16069C7.82856 0.891922 8.16197 0.823262 7.91297 0.680402C7.95023 0.673015 7.80411 0.678012 7.86864 0.617065L7.86875 0.617174Z"
+                        fill="CurrentColor" />
+                     <path
+                        d="M12.5263 4.73196C12.2121 4.66211 12.0138 4.54608 11.7365 4.13477C11.3489 3.55953 11.0454 3.76562 10.8442 3.89598C10.567 4.07578 10.2365 4.17464 9.92865 4.23352C9.55374 4.30523 9.04596 4.35227 8.88605 4.09208C8.72483 3.82971 8.74069 3.53443 8.93798 3.42927C9.16818 3.30673 9.38133 3.47338 9.5859 3.32921C9.75972 3.20656 9.60111 3.04089 9.90225 2.8461C10.0722 2.73615 10.2904 2.70454 10.3614 2.52833C10.4323 2.35212 10.2152 2.30095 10.1127 2.05303C10.0101 1.80512 10.1554 1.59045 10.3785 1.55666C10.6017 1.52287 11.0827 1.16089 11.0827 1.16089L12.6156 2.08834L14.1748 3.74183L14.9784 5.24669L15.2349 6.70615C15.2349 6.70615 15.0885 7.0212 14.8922 7.18427C14.696 7.34723 14.2988 7.41447 14.1446 6.94407C13.9903 6.47366 13.2822 5.83454 13.2071 5.63671C13.0593 5.24789 13.4143 5.0343 13.2119 4.77248C13.1007 4.62854 12.812 4.79551 12.5263 4.73196Z"
+                        fill="CurrentColor" />
+                  </svg>
+
+                  jamiyah Global (Canada)
+               </span>
+               <h2 class="h-h2 mb-30">
+                  Serving The Community, <br>
+                  <span class="text-gold">Caring For All</span>
+               </h2>
+            </div>
+            <p class="description">
+               Jam'iyah Global (Canada) is a Canadian-registered non-profit social service organisation
+               dedicated to strengthening social, educational, spiritual, and humanitarian support
+               for Muslim communities across North America.
+            </p>
+
+            <p class="description">
+               Jam'iyah Global (Canada) aims to provide support to the wider Muslim community in
+               North America, particularly Canada, through programmes in religious and secular
+               education support, family development, mental health, youth empowerment,
+               and social upliftment.
+            </p>
+
+            <div class="row">
+               <div class="col-md-3">
+                  <div class="info-card">
+                     <span class="card-number">1</span>
+                     <div class="card-content">
+                        <h4>Community & Social Services</h4>
+                     </div>
+                     <span class="card-icon">
+                        <img src="images/icon-1.svg" alt="">
+                     </span>
+                     <span class="icon-add">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                           <path d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z" fill="white" />
+                        </svg>
+                     </span>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="info-card">
+                     <span class="card-number">2</span>
+                     <div class="card-content">
+                        <h4>Mental Health
+                           & Well-being</h4>
+                     </div>
+                     <span class="card-icon">
+                        <img src="images/icon-2.svg" alt="">
+                     </span>
+                     <span class="icon-add">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                           <path d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z" fill="white" />
+                        </svg>
+                     </span>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="info-card">
+                     <span class="card-number">3</span>
+                     <div class="card-content">
+                        <h4>Religious Education & Spiritual Development</h4>
+                     </div>
+                     <span class="card-icon">
+                        <img src="images/icon-3.svg" alt="">
+                     </span>
+                     <span class="icon-add">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                           <path d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z" fill="white" />
+                        </svg>
+                     </span>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="info-card">
+                     <span class="card-number">4</span>
+                     <div class="card-content">
+                        <h4>Humanitarian and International Relief and Development</h4>
+                     </div>
+                     <span class="card-icon">
+                        <img src="images/icon-4.svg" alt="">
+                     </span>
+                     <span class="icon-add">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                           <path d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z" fill="white" />
+                        </svg>
+                     </span>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </section>
+
+      <section class="events-section py-100">
+         <div class="container">
+            <div class="block-header text-center mb-68">
+               <span class="subtitle justify-content-center">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path
+                        d="M15.5 8C15.5 3.85786 12.1421 0.499999 8 0.5C3.85786 0.5 0.499999 3.85786 0.5 8C0.5 12.1421 3.85786 15.5 8 15.5C12.1421 15.5 15.5 12.1421 15.5 8Z"
+                        stroke="CurrentColor" stroke-miterlimit="10" />
+                     <path
+                        d="M3.08584 4.90324C3.08584 4.90104 3.08608 4.89953 3.08608 4.89722C3.08017 4.90579 3.08063 4.90707 3.08584 4.90324Z"
+                        fill="CurrentColor" />
+                     <path
+                        d="M14.4665 4.19897C14.3947 4.07696 14.3194 3.95724 14.241 3.8398C14.1644 3.81753 14.0827 3.81873 14.2125 3.98027C14.2741 4.00765 14.2358 4.16692 14.343 4.17387C14.3223 4.14573 14.4166 4.15855 14.4666 4.19907L14.4665 4.19897Z"
+                        fill="CurrentColor" />
+                     <path
+                        d="M12.6898 5.64254C12.5805 5.4258 12.4569 5.34139 12.2754 5.24416C12.0955 5.1478 11.8865 5.13139 11.5864 5.21407C11.321 5.28718 10.8977 5.25176 10.6645 5.04459C10.4311 4.83742 10.2944 4.68206 9.90084 4.67218C9.50148 4.66207 9.27877 4.74811 8.91113 4.98419C8.54317 5.22058 8.20455 5.59441 8.05386 5.9288C7.88254 6.30926 7.81475 6.6997 7.81475 7.34871C7.81475 7.76241 7.45559 7.98501 7.67939 8.376C7.85897 8.68964 8.42465 9.02882 8.96241 9.02643C9.50007 9.02393 10.2161 8.60654 10.4473 8.73679C10.9095 8.99731 10.5086 9.03294 10.6437 9.8096C10.7884 10.6408 10.6349 10.8895 10.5973 11.5705C10.5656 12.1461 10.6591 12.9576 10.9761 13.1468C11.1932 13.2763 11.5337 13.2371 11.7864 12.8794C12.0391 12.5217 12.154 12.6352 12.4656 12.3911C12.7772 12.147 12.5764 11.925 12.9792 11.5532C13.11 11.4325 13.2018 11.3245 13.2672 11.1698C13.6472 10.2706 13.5814 9.71107 13.8629 9.30324C14.1522 8.88411 14.5562 8.18762 14.4316 7.9597C14.307 7.73178 13.9046 7.95829 13.7047 7.67659C13.3309 7.14958 12.7863 5.83374 12.6899 5.64254H12.6898Z"
+                        fill="CurrentColor" />
+                     <path
+                        d="M5.70204 9.2789C5.51127 9.03012 5.46369 9.06434 5.15733 8.60871C4.85097 8.15307 4.08289 7.9547 3.77164 7.96469C3.4819 7.97404 3.31687 7.91907 3.04582 7.75013C2.73131 7.55404 2.57161 7.82346 2.33369 7.75871C2.1099 7.69777 2.0534 7.58707 2.00039 7.4328C1.92358 7.20944 2.11598 7.10645 1.92086 6.82876C1.76953 6.61333 1.54921 6.68015 1.40798 6.59465C1.21667 6.47884 1.24252 6.25678 1.29456 6.09915C1.33726 5.96976 1.4585 5.87231 1.63971 5.8282C1.89131 5.76693 2.23168 5.87176 2.38432 6.05319C2.63625 6.3526 3.05777 6.28818 3.17999 5.99485C3.27385 5.76964 3.28678 5.55139 3.37315 5.22927C3.45952 4.90716 3.81096 4.79732 4.08821 4.52377C4.27094 4.34343 4.44878 4.12279 4.58947 3.93473C4.83239 3.6099 5.22316 2.62856 4.46899 2.5687C3.71482 2.50884 3.35175 2.24301 3.21182 2.31536C3.17271 2.34676 3.03648 2.56371 2.99802 2.59586C2.95098 2.65149 3.02648 2.99261 2.72349 2.83454C1.64807 3.96797 0.923015 5.43721 0.721924 7.06864C0.772658 7.12198 0.757992 7.15848 0.818069 7.19738C0.878038 7.23627 1.08184 7.19488 1.31129 7.44529C1.54074 7.69581 1.74041 7.87626 1.98507 8.21837C2.03363 8.28616 2.11044 8.41935 2.16106 8.52549C2.35053 8.92289 2.01951 9.2864 2.04775 9.7279C2.07611 10.1695 2.27057 10.756 2.66167 11.1336C2.81931 11.2858 2.93729 11.4748 3.00302 11.6838C3.19835 12.3051 3.26842 13.101 3.37619 13.7679C3.58641 13.9426 3.8064 14.1059 4.03509 14.2571C4.0277 14.2434 4.02075 14.2277 4.01466 14.2089C4.37437 14.1945 4.6741 13.49 4.92028 13.0454C5.16656 12.601 5.489 12.4105 5.79124 11.9536C6.06848 11.4873 6.18353 11.215 6.46556 10.5975C6.57452 10.3588 6.5579 10.0231 6.41906 9.79559C6.26284 9.53963 5.89281 9.52779 5.70204 9.27901V9.2789Z"
+                        fill="CurrentColor" />
+                     <path
+                        d="M7.86875 0.617174C6.88666 0.634013 5.95062 0.839558 5.0952 1.19926C5.12268 1.23109 5.04055 1.45826 5.10552 1.6789C5.46207 2.85916 6.20592 2.38625 6.7263 1.9681C7.1589 1.62056 7.41171 1.74506 7.62583 1.62936C7.77282 1.54995 7.85724 1.40003 7.8429 1.16069C7.82856 0.891922 8.16197 0.823262 7.91297 0.680402C7.95023 0.673015 7.80411 0.678012 7.86864 0.617065L7.86875 0.617174Z"
+                        fill="CurrentColor" />
+                     <path
+                        d="M12.5263 4.73196C12.2121 4.66211 12.0138 4.54608 11.7365 4.13477C11.3489 3.55953 11.0454 3.76562 10.8442 3.89598C10.567 4.07578 10.2365 4.17464 9.92865 4.23352C9.55374 4.30523 9.04596 4.35227 8.88605 4.09208C8.72483 3.82971 8.74069 3.53443 8.93798 3.42927C9.16818 3.30673 9.38133 3.47338 9.5859 3.32921C9.75972 3.20656 9.60111 3.04089 9.90225 2.8461C10.0722 2.73615 10.2904 2.70454 10.3614 2.52833C10.4323 2.35212 10.2152 2.30095 10.1127 2.05303C10.0101 1.80512 10.1554 1.59045 10.3785 1.55666C10.6017 1.52287 11.0827 1.16089 11.0827 1.16089L12.6156 2.08834L14.1748 3.74183L14.9784 5.24669L15.2349 6.70615C15.2349 6.70615 15.0885 7.0212 14.8922 7.18427C14.696 7.34723 14.2988 7.41447 14.1446 6.94407C13.9903 6.47366 13.2822 5.83454 13.2071 5.63671C13.0593 5.24789 13.4143 5.0343 13.2119 4.77248C13.1007 4.62854 12.812 4.79551 12.5263 4.73196Z"
+                        fill="CurrentColor" />
+                  </svg>
+                  FEATURE PROGRAMMES & EVENTS
+               </span>
+               <h2 class="mb-30">
+                 What’s Happening
+               </h2>
+               <p>Explore events and initiatives by Jamiyah Global Canada, including community programs, cultural activities, and special gatherings. 
+Find out what’s happening now and what’s coming up this year.</p>
+            </div>
+
+            <div class="row">
+               <div class="col-md-7">
+               <div class="event-large">
+                  <div class="event-image">
+                     <img src="images/event-img-1.jpg" alt="">
+                  </div>
+                  <span class="event-date">March 03, 2026</span>
+                  <h4>In suscipit massa vitae placerat pretium</h4>
+                  <p>
+                     Aenean faucibus neque eu ipsum suscipit interdum. Nunc commodo
+                     ut metus nec vehicula. Sed cursus dui ac sapien tristique aliquet.
+                     Phasellus maximus nunc in volutpat.
+                  </p>
+                  <a href="#" class="btn">Read More</a>
+               </div>
+               </div>
+               <div class="col-md-5">
+               <div class="event-list">
+                  <div class="event-item">
+                     <div class="event-thumb">
+                        <img src="images/event-img-2.jpg" alt="">
+                     </div>
+                     <div class="event-info">
+                        <span class="event-date">March 03, 2026</span>
+                        <h4>In suscipit massa vitae placerat pretium</h4>
+                        <a href="#" class="btn-theme btn-yellow">Read More</a>
+                     </div>
+                  </div>
+                  <div class="event-item">
+                     <div class="event-thumb">
+                        <img src="images/event-img-2.jpg" alt="">
+                     </div>
+                     <div class="event-info">
+                        <span class="event-date">March 03, 2026</span>
+                        <h4>In suscipit massa vitae placerat pretium</h4>
+                        <a href="#" class="btn-theme btn-yellow">Read More</a>
+                     </div>
+                  </div>
+                  <div class="event-item">
+                     <div class="event-thumb">
+                        <img src="images/event-img-2.jpg" alt="">
+                     </div>
+                     <div class="event-info">
+                        <span class="event-date">March 03, 2026</span>
+                        <h4>In suscipit massa vitae placerat pretium</h4>
+                        <a href="#" class="btn-theme btn-yellow">Read More</a>
+                     </div>
+                  </div>
+               </div>
+               </div>
+            </div>
+
+         </div>
+      </section>
+
+
+
+   </main>
+
+
+   <footer class="footer">
+      <div class="top-footer bg-black pt-80 pb-80">
+         <div class="container">
+            <div class="inner-footer-box d-flex flex-wrap">
+               <div class="left-footer">
+                  <a href="index.html" class="footer-logo">
+                     <img src="images/footer-logo.svg" alt="">
+                  </a>
+                  <p class="m-0">Cutting-edge audiology and personalized care designed to help you hear the world
+                     better.</p>
+               </div>
+               <div class="right-footer">
+                  <div class="footer-item-box d-flex flex-wrap">
+                     <div class="item-footer">
+                        <h4>Useful Links</h4>
+                        <ul class="p-0 m-0 list-unstyled">
+                           <li>
+                              <a href="index.html">Home</a>
+                           </li>
+                           <li>
+                              <a href="about-us.html">About us</a>
+                           </li>
+                           <li>
+                              <a href="common-conditions.html">Common Conditions </a>
+                           </li>
+                           <li>
+                              <a href="faq.html">FAQ</a>
+                           </li>
+                           <li>
+                              <a href="articles.html">Articles</a>
+                           </li>
+                           <li>
+                              <a href="contact-us.html">Contact Us</a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="item-footer">
+                        <h4>Social Links</h4>
+                        <ul class="p-0 m-0 list-unstyled">
+                           <li>
+                              <a href="#" class="d-flex align-items-center gap-1">
+                                 <img src="images/linkedin-line.svg" alt="">
+                                 <span>Linkedin</span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#" class="d-flex align-items-center gap-1">
+                                 <img src="images/facebook-line.svg" alt="">
+                                 <span>Facebook</span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#" class="d-flex align-items-center gap-1">
+                                 <img src="images/icons_insta.svg" alt="">
+                                 <span>Instagram</span>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#" class="d-flex align-items-center gap-1">
+                                 <img src="images/twitter.svg" alt="">
+                                 <span>X/twitter</span>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="item-footer">
+                        <h4>Contact Details</h4>
+                        <ul class="p-0 m-0 list-unstyled">
+                           <li>
+                              <a href="tel:+65 8985 0089">Call : +65 8985 0089 </a>
+                           </li>
+                           <li>
+                              <a href="mailto:admin@earbalancesg.com">Mail Us : admin@earbalancesg.com</a>
+                           </li>
+                           <li>
+                              Visit Us: 3 Mount Elizabeth Orchard, Medical Center. #04-K1, SINGAPORE 228510
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="item-footer">
+                        <h4>Newsletter</h4>
+                        <p>Get frequent updates about health tips, availability and services.</p>
+                        <form>
+                           <div class="input-group">
+                              <input type="email" class="form-control" placeholder="enter your email...">
+                              <button class="btn btn-primary" type="submit" id="button-addon2">
+                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_70_1491)">
+                                       <path
+                                          d="M23.625 0.147321C23.9197 0.361607 24.0402 0.647321 23.9866 1.00446L20.5581 21.5759C20.5134 21.8348 20.3706 22.0357 20.1295 22.1786C20.0045 22.25 19.8661 22.2857 19.7143 22.2857C19.6161 22.2857 19.509 22.2634 19.3929 22.2188L13.3259 19.7411L10.0848 23.692C9.92413 23.8973 9.70538 24 9.42859 24C9.31252 24 9.21431 23.9821 9.13395 23.9464C8.96431 23.8839 8.82815 23.779 8.72547 23.6317C8.62279 23.4844 8.57145 23.3214 8.57145 23.1429V18.4688L20.1429 4.28571L5.82592 16.6741L0.535738 14.5045C0.20538 14.3795 0.026809 14.1339 2.32515e-05 13.7679C-0.0178339 13.4107 0.125023 13.1473 0.428595 12.9777L22.7143 0.120536C22.8482 0.0401786 22.9911 0 23.1429 0C23.3215 0 23.4822 0.0491071 23.625 0.147321Z"
+                                          fill="white" />
+                                    </g>
+                                    <defs>
+                                       <clipPath id="clip0_70_1491">
+                                          <rect width="24" height="24" fill="white" />
+                                       </clipPath>
+                                    </defs>
+                                 </svg>
+                              </button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="bottom-footer bg-light-black">
+         <div class="bottom-footer-text text-center">
+            <p class="m-0">Copyright SoundBalance | All rights recieved.</p>
+         </div>
+      </div>
+   </footer>
+
+   <script src="js/swiper-bundle.min.js"></script>
+   <script src="js/jquery.min.js"></script>
+   <script src="js/bootstrap.bundle.js"></script>
+   <!-- <script src="js/aos.js"></script> -->
+   <script src="js/custom.js"></script>
+</body>
+
+</html>
