@@ -115,7 +115,8 @@
    </header>
 
    <main class="main">
-      <div class=" home-page-banner ">
+      
+      <section class="home-page-banner position-relative">
          <div class="swiper mySwiper banner-slider banner-sec">
             <div class="swiper-wrapper ">
                <div class="swiper-slide">
@@ -149,9 +150,408 @@
             </div>
             <div class="swiper-pagination"></div>
          </div>
+         <div class="tabs-banner-sec">
+            <div class="container">
+               <div class="tabs-position-sec">
+                  <h2>Donate</h2>
+                  <div class="tabs-main-banner">
+                     <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                           <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Single</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                           <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Monthly</button>
+                        </li>
+                     </ul>
+                     <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                           <div class="tabs-donate">
+                              <form action="">
+                                 <div class="mb-3">
+                                    <label for="" class="form-label d-none">Full Name</label>
+                                    <input type="text" class="form-control" id="" placeholder="Full Name">
+                                 </div>
+                                 <div class="mb-3">
+                                    <label for="" class="form-label d-none">Email Address</label>
+                                    <input type="email" class="form-control" id="" placeholder="Email Address">
+                                 </div>
+                                 <h6>Choose an amount to give per month</h6>
+                                 <div class="check-box-item d-flex flex-wrap">
+                                    <div class="form-check">
+                                       <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                                       <label class="form-check-label" for="radioDefault1">
+                                          $10.00
+                                       </label>
+                                    </div>
+                                    <div class="form-check">
+                                       <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" >
+                                       <label class="form-check-label" for="radioDefault2">
+                                          $25.00
+                                       </label>
+                                    </div>
+                                    <div class="form-check">
+                                       <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault3" >
+                                       <label class="form-check-label" for="radioDefault3">
+                                          $50.00
+                                       </label>
+                                    </div>
+                                    <div class="form-check">
+                                       <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault4" >
+                                       <label class="form-check-label" for="radioDefault4">
+                                          $100.00
+                                       </label>
+                                    </div>
+                                    <div class="form-check">
+                                       <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault5" >
+                                       <label class="form-check-label" for="radioDefault5">
+                                          $250.00
+                                       </label>
+                                    </div>
+                                    <div class="form-check">
+                                       <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault6" checked>
+                                       <label class="form-check-label" for="radioDefault6">
+                                          $500.00
+                                       </label>
+                                    </div>
+                                 </div>
+                                 <button class="btn-theme yellow-btn">Donate Now</button>
+                              </form>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                           <div class="tabs-donate">
+                              <form action="">
+                                 <div class="mb-3">
+                                    <label for="" class="form-label d-none">Full Name</label>
+                                    <input type="text" class="form-control" id="" placeholder="Full Name">
+                                 </div>
+                                 <div class="mb-3">
+                                    <label for="" class="form-label d-none">Email Address</label>
+                                    <input type="email" class="form-control" id="" placeholder="Email Address">
+                                 </div>
+                                 <h6>Choose an amount to give per month</h6>
+                                 <div class="check-box-item d-flex flex-wrap">
+                                    <div class="form-check">
+                                       <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                                       <label class="form-check-label" for="radioDefault1">
+                                          $10.00
+                                       </label>
+                                    </div>
+                                    <div class="form-check">
+                                       <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+                                       <label class="form-check-label" for="radioDefault2">
+                                          $25.00
+                                       </label>
+                                    </div>
+                                    <div class="form-check">
+                                       <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault3" >
+                                       <label class="form-check-label" for="radioDefault3">
+                                          $50.00
+                                       </label>
+                                    </div>
+                                    <div class="form-check">
+                                       <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault4" >
+                                       <label class="form-check-label" for="radioDefault4">
+                                          $100.00
+                                       </label>
+                                    </div>
+                                    <div class="form-check">
+                                       <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault5" >
+                                       <label class="form-check-label" for="radioDefault5">
+                                          $250.00
+                                       </label>
+                                    </div>
+                                    <div class="form-check">
+                                       <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault6" >
+                                       <label class="form-check-label" for="radioDefault6">
+                                          $500.00
+                                       </label>
+                                    </div>
+                                 </div>
+                                 <button class="btn-theme yellow-btn">Donate Now</button>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
 
-      </div>
 
+      
+      <section class="community-section py-100">
+         <div class="container">
+            <div class="block-header">
+               <span class="subtitle">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path
+                        d="M15.5 8C15.5 3.85786 12.1421 0.499999 8 0.5C3.85786 0.5 0.499999 3.85786 0.5 8C0.5 12.1421 3.85786 15.5 8 15.5C12.1421 15.5 15.5 12.1421 15.5 8Z"
+                        stroke="CurrentColor" stroke-miterlimit="10" />
+                     <path
+                        d="M3.08584 4.90324C3.08584 4.90104 3.08608 4.89953 3.08608 4.89722C3.08017 4.90579 3.08063 4.90707 3.08584 4.90324Z"
+                        fill="CurrentColor" />
+                     <path
+                        d="M14.4665 4.19897C14.3947 4.07696 14.3194 3.95724 14.241 3.8398C14.1644 3.81753 14.0827 3.81873 14.2125 3.98027C14.2741 4.00765 14.2358 4.16692 14.343 4.17387C14.3223 4.14573 14.4166 4.15855 14.4666 4.19907L14.4665 4.19897Z"
+                        fill="CurrentColor" />
+                     <path
+                        d="M12.6898 5.64254C12.5805 5.4258 12.4569 5.34139 12.2754 5.24416C12.0955 5.1478 11.8865 5.13139 11.5864 5.21407C11.321 5.28718 10.8977 5.25176 10.6645 5.04459C10.4311 4.83742 10.2944 4.68206 9.90084 4.67218C9.50148 4.66207 9.27877 4.74811 8.91113 4.98419C8.54317 5.22058 8.20455 5.59441 8.05386 5.9288C7.88254 6.30926 7.81475 6.6997 7.81475 7.34871C7.81475 7.76241 7.45559 7.98501 7.67939 8.376C7.85897 8.68964 8.42465 9.02882 8.96241 9.02643C9.50007 9.02393 10.2161 8.60654 10.4473 8.73679C10.9095 8.99731 10.5086 9.03294 10.6437 9.8096C10.7884 10.6408 10.6349 10.8895 10.5973 11.5705C10.5656 12.1461 10.6591 12.9576 10.9761 13.1468C11.1932 13.2763 11.5337 13.2371 11.7864 12.8794C12.0391 12.5217 12.154 12.6352 12.4656 12.3911C12.7772 12.147 12.5764 11.925 12.9792 11.5532C13.11 11.4325 13.2018 11.3245 13.2672 11.1698C13.6472 10.2706 13.5814 9.71107 13.8629 9.30324C14.1522 8.88411 14.5562 8.18762 14.4316 7.9597C14.307 7.73178 13.9046 7.95829 13.7047 7.67659C13.3309 7.14958 12.7863 5.83374 12.6899 5.64254H12.6898Z"
+                        fill="CurrentColor" />
+                     <path
+                        d="M5.70204 9.2789C5.51127 9.03012 5.46369 9.06434 5.15733 8.60871C4.85097 8.15307 4.08289 7.9547 3.77164 7.96469C3.4819 7.97404 3.31687 7.91907 3.04582 7.75013C2.73131 7.55404 2.57161 7.82346 2.33369 7.75871C2.1099 7.69777 2.0534 7.58707 2.00039 7.4328C1.92358 7.20944 2.11598 7.10645 1.92086 6.82876C1.76953 6.61333 1.54921 6.68015 1.40798 6.59465C1.21667 6.47884 1.24252 6.25678 1.29456 6.09915C1.33726 5.96976 1.4585 5.87231 1.63971 5.8282C1.89131 5.76693 2.23168 5.87176 2.38432 6.05319C2.63625 6.3526 3.05777 6.28818 3.17999 5.99485C3.27385 5.76964 3.28678 5.55139 3.37315 5.22927C3.45952 4.90716 3.81096 4.79732 4.08821 4.52377C4.27094 4.34343 4.44878 4.12279 4.58947 3.93473C4.83239 3.6099 5.22316 2.62856 4.46899 2.5687C3.71482 2.50884 3.35175 2.24301 3.21182 2.31536C3.17271 2.34676 3.03648 2.56371 2.99802 2.59586C2.95098 2.65149 3.02648 2.99261 2.72349 2.83454C1.64807 3.96797 0.923015 5.43721 0.721924 7.06864C0.772658 7.12198 0.757992 7.15848 0.818069 7.19738C0.878038 7.23627 1.08184 7.19488 1.31129 7.44529C1.54074 7.69581 1.74041 7.87626 1.98507 8.21837C2.03363 8.28616 2.11044 8.41935 2.16106 8.52549C2.35053 8.92289 2.01951 9.2864 2.04775 9.7279C2.07611 10.1695 2.27057 10.756 2.66167 11.1336C2.81931 11.2858 2.93729 11.4748 3.00302 11.6838C3.19835 12.3051 3.26842 13.101 3.37619 13.7679C3.58641 13.9426 3.8064 14.1059 4.03509 14.2571C4.0277 14.2434 4.02075 14.2277 4.01466 14.2089C4.37437 14.1945 4.6741 13.49 4.92028 13.0454C5.16656 12.601 5.489 12.4105 5.79124 11.9536C6.06848 11.4873 6.18353 11.215 6.46556 10.5975C6.57452 10.3588 6.5579 10.0231 6.41906 9.79559C6.26284 9.53963 5.89281 9.52779 5.70204 9.27901V9.2789Z"
+                        fill="CurrentColor" />
+                     <path
+                        d="M7.86875 0.617174C6.88666 0.634013 5.95062 0.839558 5.0952 1.19926C5.12268 1.23109 5.04055 1.45826 5.10552 1.6789C5.46207 2.85916 6.20592 2.38625 6.7263 1.9681C7.1589 1.62056 7.41171 1.74506 7.62583 1.62936C7.77282 1.54995 7.85724 1.40003 7.8429 1.16069C7.82856 0.891922 8.16197 0.823262 7.91297 0.680402C7.95023 0.673015 7.80411 0.678012 7.86864 0.617065L7.86875 0.617174Z"
+                        fill="CurrentColor" />
+                     <path
+                        d="M12.5263 4.73196C12.2121 4.66211 12.0138 4.54608 11.7365 4.13477C11.3489 3.55953 11.0454 3.76562 10.8442 3.89598C10.567 4.07578 10.2365 4.17464 9.92865 4.23352C9.55374 4.30523 9.04596 4.35227 8.88605 4.09208C8.72483 3.82971 8.74069 3.53443 8.93798 3.42927C9.16818 3.30673 9.38133 3.47338 9.5859 3.32921C9.75972 3.20656 9.60111 3.04089 9.90225 2.8461C10.0722 2.73615 10.2904 2.70454 10.3614 2.52833C10.4323 2.35212 10.2152 2.30095 10.1127 2.05303C10.0101 1.80512 10.1554 1.59045 10.3785 1.55666C10.6017 1.52287 11.0827 1.16089 11.0827 1.16089L12.6156 2.08834L14.1748 3.74183L14.9784 5.24669L15.2349 6.70615C15.2349 6.70615 15.0885 7.0212 14.8922 7.18427C14.696 7.34723 14.2988 7.41447 14.1446 6.94407C13.9903 6.47366 13.2822 5.83454 13.2071 5.63671C13.0593 5.24789 13.4143 5.0343 13.2119 4.77248C13.1007 4.62854 12.812 4.79551 12.5263 4.73196Z"
+                        fill="CurrentColor" />
+                  </svg>
+
+                  jamiyah Global (Canada)
+               </span>
+               <h2 class="h-h2 mb-30">
+                  Serving The Community, <br>
+                  <span class="text-gold">Caring For All</span>
+               </h2>
+            </div>
+            <p class="description">
+               Jam'iyah Global (Canada) is a Canadian-registered non-profit social service organisation
+               dedicated to strengthening social, educational, spiritual, and humanitarian support
+               for Muslim communities across North America.
+            </p>
+
+            <p class="description">
+               Jam'iyah Global (Canada) aims to provide support to the wider Muslim community in
+               North America, particularly Canada, through programmes in religious and secular
+               education support, family development, mental health, youth empowerment,
+               and social upliftment.
+            </p>
+
+            <div class="row">
+               <div class="col-md-3">
+                  <div class="info-card">
+                     <span class="card-number">1</span>
+                     <div class="card-content">
+                        <h4>Community & Social Services</h4>
+                     </div>
+                     <span class="card-icon">
+                        <img src="images/icon-1.svg" alt="">
+                     </span>
+                     <span class="icon-add">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                           <path d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z" fill="white" />
+                        </svg>
+                     </span>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="info-card">
+                     <span class="card-number">2</span>
+                     <div class="card-content">
+                        <h4>Mental Health
+                           & Well-being</h4>
+                     </div>
+                     <span class="card-icon">
+                        <img src="images/icon-2.svg" alt="">
+                     </span>
+                     <span class="icon-add">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                           <path d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z" fill="white" />
+                        </svg>
+                     </span>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="info-card">
+                     <span class="card-number">3</span>
+                     <div class="card-content">
+                        <h4>Religious Education & Spiritual Development</h4>
+                     </div>
+                     <span class="card-icon">
+                        <img src="images/icon-3.svg" alt="">
+                     </span>
+                     <span class="icon-add">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                           <path d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z" fill="white" />
+                        </svg>
+                     </span>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="info-card">
+                     <span class="card-number">4</span>
+                     <div class="card-content">
+                        <h4>Humanitarian and International Relief and Development</h4>
+                     </div>
+                     <span class="card-icon">
+                        <img src="images/icon-4.svg" alt="">
+                     </span>
+                     <span class="icon-add">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                           <path d="M14 8H8V14H6V8H0V6H6V0H8V6H14V8Z" fill="white" />
+                        </svg>
+                     </span>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </section>
+
+
+      <section class="impact-sec py-100">
+         <div class="inner-impact-sec">
+            <div class="container">
+               <div class="heading-box">
+                  <h2>Local Impact <span>Global Impact</span></h2>
+               </div>
+               <div class="impact-slider">
+                   <div class="swiper locat-impact">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                           <div class="inpact-box">
+                              <p class="p-0 m-0">Strengthened community resilience </p>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="inpact-box">
+                              <p class="p-0 m-0">Culturally aligned social support structures </p>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="inpact-box">
+                              <p class="p-0 m-0">Improved mental health and family stability</p>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="inpact-box">
+                              <p class="p-0 m-0">Empowered youth and strong leadership pipelines </p>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="inpact-box">
+                              <p class="p-0 m-0">Expansion of Humanitarian Reach</p>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="inpact-box">
+                              <p class="p-0 m-0">International donor engagement and Global Muslim Solidarity</p>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="inpact-box">
+                              <p class="p-0 m-0">Strengthened community resilience </p>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="inpact-box">
+                              <p class="p-0 m-0">Expansion of Humanitarian Reach</p>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="inpact-box">
+                              <p class="p-0 m-0">Empowered youth and strong leadership pipelines </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-pagination"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="events-section py-100">
+         <div class="container">
+            <div class="block-header text-center mb-68">
+               <span class="subtitle justify-content-center">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path
+                        d="M15.5 8C15.5 3.85786 12.1421 0.499999 8 0.5C3.85786 0.5 0.499999 3.85786 0.5 8C0.5 12.1421 3.85786 15.5 8 15.5C12.1421 15.5 15.5 12.1421 15.5 8Z"
+                        stroke="CurrentColor" stroke-miterlimit="10" />
+                     <path
+                        d="M3.08584 4.90324C3.08584 4.90104 3.08608 4.89953 3.08608 4.89722C3.08017 4.90579 3.08063 4.90707 3.08584 4.90324Z"
+                        fill="CurrentColor" />
+                     <path
+                        d="M14.4665 4.19897C14.3947 4.07696 14.3194 3.95724 14.241 3.8398C14.1644 3.81753 14.0827 3.81873 14.2125 3.98027C14.2741 4.00765 14.2358 4.16692 14.343 4.17387C14.3223 4.14573 14.4166 4.15855 14.4666 4.19907L14.4665 4.19897Z"
+                        fill="CurrentColor" />
+                     <path
+                        d="M12.6898 5.64254C12.5805 5.4258 12.4569 5.34139 12.2754 5.24416C12.0955 5.1478 11.8865 5.13139 11.5864 5.21407C11.321 5.28718 10.8977 5.25176 10.6645 5.04459C10.4311 4.83742 10.2944 4.68206 9.90084 4.67218C9.50148 4.66207 9.27877 4.74811 8.91113 4.98419C8.54317 5.22058 8.20455 5.59441 8.05386 5.9288C7.88254 6.30926 7.81475 6.6997 7.81475 7.34871C7.81475 7.76241 7.45559 7.98501 7.67939 8.376C7.85897 8.68964 8.42465 9.02882 8.96241 9.02643C9.50007 9.02393 10.2161 8.60654 10.4473 8.73679C10.9095 8.99731 10.5086 9.03294 10.6437 9.8096C10.7884 10.6408 10.6349 10.8895 10.5973 11.5705C10.5656 12.1461 10.6591 12.9576 10.9761 13.1468C11.1932 13.2763 11.5337 13.2371 11.7864 12.8794C12.0391 12.5217 12.154 12.6352 12.4656 12.3911C12.7772 12.147 12.5764 11.925 12.9792 11.5532C13.11 11.4325 13.2018 11.3245 13.2672 11.1698C13.6472 10.2706 13.5814 9.71107 13.8629 9.30324C14.1522 8.88411 14.5562 8.18762 14.4316 7.9597C14.307 7.73178 13.9046 7.95829 13.7047 7.67659C13.3309 7.14958 12.7863 5.83374 12.6899 5.64254H12.6898Z"
+                        fill="CurrentColor" />
+                     <path
+                        d="M5.70204 9.2789C5.51127 9.03012 5.46369 9.06434 5.15733 8.60871C4.85097 8.15307 4.08289 7.9547 3.77164 7.96469C3.4819 7.97404 3.31687 7.91907 3.04582 7.75013C2.73131 7.55404 2.57161 7.82346 2.33369 7.75871C2.1099 7.69777 2.0534 7.58707 2.00039 7.4328C1.92358 7.20944 2.11598 7.10645 1.92086 6.82876C1.76953 6.61333 1.54921 6.68015 1.40798 6.59465C1.21667 6.47884 1.24252 6.25678 1.29456 6.09915C1.33726 5.96976 1.4585 5.87231 1.63971 5.8282C1.89131 5.76693 2.23168 5.87176 2.38432 6.05319C2.63625 6.3526 3.05777 6.28818 3.17999 5.99485C3.27385 5.76964 3.28678 5.55139 3.37315 5.22927C3.45952 4.90716 3.81096 4.79732 4.08821 4.52377C4.27094 4.34343 4.44878 4.12279 4.58947 3.93473C4.83239 3.6099 5.22316 2.62856 4.46899 2.5687C3.71482 2.50884 3.35175 2.24301 3.21182 2.31536C3.17271 2.34676 3.03648 2.56371 2.99802 2.59586C2.95098 2.65149 3.02648 2.99261 2.72349 2.83454C1.64807 3.96797 0.923015 5.43721 0.721924 7.06864C0.772658 7.12198 0.757992 7.15848 0.818069 7.19738C0.878038 7.23627 1.08184 7.19488 1.31129 7.44529C1.54074 7.69581 1.74041 7.87626 1.98507 8.21837C2.03363 8.28616 2.11044 8.41935 2.16106 8.52549C2.35053 8.92289 2.01951 9.2864 2.04775 9.7279C2.07611 10.1695 2.27057 10.756 2.66167 11.1336C2.81931 11.2858 2.93729 11.4748 3.00302 11.6838C3.19835 12.3051 3.26842 13.101 3.37619 13.7679C3.58641 13.9426 3.8064 14.1059 4.03509 14.2571C4.0277 14.2434 4.02075 14.2277 4.01466 14.2089C4.37437 14.1945 4.6741 13.49 4.92028 13.0454C5.16656 12.601 5.489 12.4105 5.79124 11.9536C6.06848 11.4873 6.18353 11.215 6.46556 10.5975C6.57452 10.3588 6.5579 10.0231 6.41906 9.79559C6.26284 9.53963 5.89281 9.52779 5.70204 9.27901V9.2789Z"
+                        fill="CurrentColor" />
+                     <path
+                        d="M7.86875 0.617174C6.88666 0.634013 5.95062 0.839558 5.0952 1.19926C5.12268 1.23109 5.04055 1.45826 5.10552 1.6789C5.46207 2.85916 6.20592 2.38625 6.7263 1.9681C7.1589 1.62056 7.41171 1.74506 7.62583 1.62936C7.77282 1.54995 7.85724 1.40003 7.8429 1.16069C7.82856 0.891922 8.16197 0.823262 7.91297 0.680402C7.95023 0.673015 7.80411 0.678012 7.86864 0.617065L7.86875 0.617174Z"
+                        fill="CurrentColor" />
+                     <path
+                        d="M12.5263 4.73196C12.2121 4.66211 12.0138 4.54608 11.7365 4.13477C11.3489 3.55953 11.0454 3.76562 10.8442 3.89598C10.567 4.07578 10.2365 4.17464 9.92865 4.23352C9.55374 4.30523 9.04596 4.35227 8.88605 4.09208C8.72483 3.82971 8.74069 3.53443 8.93798 3.42927C9.16818 3.30673 9.38133 3.47338 9.5859 3.32921C9.75972 3.20656 9.60111 3.04089 9.90225 2.8461C10.0722 2.73615 10.2904 2.70454 10.3614 2.52833C10.4323 2.35212 10.2152 2.30095 10.1127 2.05303C10.0101 1.80512 10.1554 1.59045 10.3785 1.55666C10.6017 1.52287 11.0827 1.16089 11.0827 1.16089L12.6156 2.08834L14.1748 3.74183L14.9784 5.24669L15.2349 6.70615C15.2349 6.70615 15.0885 7.0212 14.8922 7.18427C14.696 7.34723 14.2988 7.41447 14.1446 6.94407C13.9903 6.47366 13.2822 5.83454 13.2071 5.63671C13.0593 5.24789 13.4143 5.0343 13.2119 4.77248C13.1007 4.62854 12.812 4.79551 12.5263 4.73196Z"
+                        fill="CurrentColor" />
+                  </svg>
+                  FEATURE PROGRAMMES & EVENTS
+               </span>
+               <h2 class="mb-30">
+                 What’s Happening
+               </h2>
+               <p>Explore events and initiatives by Jamiyah Global Canada, including community programs, cultural activities, and special gatherings. Find out what’s happening now and what’s coming up this year.</p>
+            </div>
+
+            <div class="row">
+               <div class="col-md-7">
+               <div class="event-large">
+                  <div class="event-image">
+                     <img src="images/event-img-1.jpg" alt="">
+                  </div>
+                  <span class="event-date">March 03, 2026</span>
+                  <h4>In suscipit massa vitae placerat pretium</h4>
+                  <p>
+                     Aenean faucibus neque eu ipsum suscipit interdum. Nunc commodo
+                     ut metus nec vehicula. Sed cursus dui ac sapien tristique aliquet.
+                     Phasellus maximus nunc in volutpat.
+                  </p>
+                  <a href="#" class="btn-theme yellow-btn">Read More</a>
+               </div>
+               </div>
+               <div class="col-md-5">
+               <div class="event-list">
+                  <div class="event-item">
+                     <div class="event-thumb">
+                        <img src="images/event-img-2.jpg" alt="">
+                     </div>
+                     <div class="event-info">
+                        <span class="event-date">March 03, 2026</span>
+                        <h4>In suscipit massa vitae placerat pretium</h4>
+                        <a href="#" class="btn-theme yellow-btn">Read More</a>
+                     </div>
+                  </div>
+                  <div class="event-item">
+                     <div class="event-thumb">
+                        <img src="images/event-img-2.jpg" alt="">
+                     </div>
+                     <div class="event-info">
+                        <span class="event-date">March 03, 2026</span>
+                        <h4>In suscipit massa vitae placerat pretium</h4>
+                        <a href="#" class="btn-theme yellow-btn">Read More</a>
+                     </div>
+                  </div>
+                  <div class="event-item">
+                     <div class="event-thumb">
+                        <img src="images/event-img-2.jpg" alt="">
+                     </div>
+                     <div class="event-info">
+                        <span class="event-date">March 03, 2026</span>
+                        <h4>In suscipit massa vitae placerat pretium</h4>
+                        <a href="#" class="btn-theme yellow-btn">Read More</a>
+                     </div>
+                  </div>
+               </div>
+               </div>
+            </div>
+
+         </div>
+      </section>
 
    </main>
    
@@ -294,6 +694,8 @@
          </div>
       </div>
    </footer>
+   
+
    
    <script src="js/swiper-bundle.min.js"></script>
    <script src="js/jquery.min.js"></script>
