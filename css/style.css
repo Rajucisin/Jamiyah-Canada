@@ -26,10 +26,6 @@ body {
 
 /*.text-gray{ color: #667085;}*/
 
-p {
-  line-height: 28px;
-}
-
 .contact-list a{
   transition: all 500ms ease;
   -moz-transition: all 500ms ease;
@@ -367,7 +363,7 @@ img {
 
 
 .main {
-    margin-top: 160px;
+    margin-top: 90px;
 }
 
 
@@ -772,9 +768,8 @@ body.home-page .sticky .navbar-nav li .nav-link {
 }
 
 .logo img {
-    height: 60px;
-    width: 138px;
-    object-fit: contain;
+    height: 76px;
+    width: 166px;
 }
 
 body.home-page .logo-white {
@@ -1045,7 +1040,26 @@ color: var(--title); margin-bottom: 30px;}
 
 /******************/
 
-.impact-sec {
+  /* .impact-slider .swiper {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+   .impact-slider .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #333;
+      height: calc((100% - 30px) / 2) !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    } */
+
+
+
+    .impact-sec {
     background: url(../images/slider-bg.png);
     width: 100%;
     height: 100%;
@@ -1062,7 +1076,7 @@ color: var(--title); margin-bottom: 30px;}
     position: absolute;
     left: 0;
     top: 0;
-    background: linear-gradient(270deg, #ffffff75 3%, rgb(127 12 8 / 90%) 70%);
+    background: linear-gradient(270deg, #7f0c0875 24.36%, rgb(127 12 8 / 90%) 92.42%);
 }
 
 .inner-impact-sec {
@@ -1086,54 +1100,18 @@ color: var(--title); margin-bottom: 30px;}
 .impact-sec .inpact-box p {
     font-family: var(--font-family-manrope);
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 26px;
     letter-spacing: 0;
     text-transform: capitalize;
     color: var(--white);
 }
 
-.impact-sec .swiper-slide {
-  opacity: 0.25;
-  transition: all 0.45s ease;
+.impact-sec  .swiper-slide {
+    opacity: .2;
 }
 
-.impact-sec .swiper-slide-visible.swiper-slide-fully-visible + .swiper-slide{
-  opacity: 0.45;
-}
-
-.impact-sec .swiper-slide-visible, 
-.impact-sec .swiper-slide-visible.swiper-slide-fully-visible.swiper-slide {
-  opacity: 1;
-}
-
-.impact-sec .swiper-slide-visible .inpact-box {
-  transition: all 0.45s ease;
-}
-
-.impact-sec .swiper-slide-next .inpact-box {
-  transform: translateY(0);
-  box-shadow: none;
-}
-
-
-.next-prev-btn {
-    max-width: 140px;
-    position: absolute;
-    top: 31px;
-    left: 910px;
-}
-
-.next-prev-btn .swiper-button-next:after, .next-prev-btn .swiper-button-prev:after {
-    display: none;
-}
-
-.next-prev-btn .swiper-button-next, .next-prev-btn .swiper-button-prev {
-    width: 50px;
-    height: 50px;
-    background: var(--white);
-    border-radius: 100px;
-    padding: 14px;
+.impact-sec .swiper-slide-active, .impact-sec .swiper-slide-next {
     opacity: 1;
 }
 
