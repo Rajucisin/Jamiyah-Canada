@@ -25,26 +25,24 @@ var swiper = new Swiper(".banner-slider", {
   },
 });
 
-/******research-slider****/
 
-var swiper = new Swiper(".locat-impact", {
-  slidesPerView: 3,
+/********************** */
+
+
+var impactSwiper = new Swiper(".locat-impact", {
+  slidesPerView: 2.4,   // important for partial preview
   spaceBetween: 20,
-
+  loop: true, 
   grid: {
     rows: 2,
-    fill: "row", 
+    fill: "row",
   },
-
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
+    clickable: true,
   },
-
-    on: {
-      slideChange: updateTopRowActive,
-      init: updateTopRowActive,
-    },
+  watchSlidesProgress: true,
 
   breakpoints: {
     0: {
@@ -52,32 +50,21 @@ var swiper = new Swiper(".locat-impact", {
       grid: { rows: 2 },
     },
     768: {
-      slidesPerView: 2,
+      slidesPerView: 1.6,
       grid: { rows: 2 },
     },
     1024: {
-      slidesPerView: 3,
+      slidesPerView: 2.1,
+      grid: { rows: 2 },
+    },
+    1400: {
+      slidesPerView: 2.4,
       grid: { rows: 2 },
     },
   },
 });
 
-function updateTopRowActive() {
-  const slides = impactSwiper.slides;
-  const visibleCols = impactSwiper.params.slidesPerView;
-  const startIndex = impactSwiper.activeIndex;
 
-  // remove class from all
-  slides.forEach(slide => slide.classList.remove("active-top"));
-
-  // add class ONLY to top row visible slides
-  for (let i = 0; i < visibleCols; i++) {
-    const topRowIndex = startIndex + i;
-    if (slides[topRowIndex]) {
-      slides[topRowIndex].classList.add("active-top");
-    }
-  }
-}
 
 
 // var swiper = new Swiper(".research-slider", {
@@ -111,32 +98,28 @@ function updateTopRowActive() {
 /******news slider****/
 
 
-AOS.init({
-  disable: function () {
-    var maxWidth = 768;
-    return window.innerWidth < maxWidth;
-  },
+
+/*************menw active **********/
+document.addEventListener("DOMContentLoaded", function () {
+  const currentPage = window.location.pathname.split("/").pop() || "index.html";
+  const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+  // sabhi li se active hata do
+  document.querySelectorAll(".navbar-nav li.active")
+    .forEach(li => li.classList.remove("active"));
+
+  navLinks.forEach(link => {
+    const linkPage = link.getAttribute("href");
+
+    if (linkPage === currentPage) {
+      // sirf current page ka hi active rahe
+      const parentLi = link.closest("li");
+      if (parentLi) {
+        parentLi.classList.add("active");
+      }
+    }
+  });
 });
 
 
-
-/*************menw active **********/
-
-
- document.addEventListener("DOMContentLoaded", function () {
-    const currentPage = window.location.pathname.split("/").pop();
-    const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
-
-    navLinks.forEach(link => {
-      const linkPage = link.getAttribute("href");
-
-      if ((currentPage === "" || currentPage === "index.html") && linkPage === "index.html") {
-        link.classList.add("active");
-      }
-
-      if (linkPage === currentPage) {
-        link.classList.add("active");
-      }
-    });
-  });
 
